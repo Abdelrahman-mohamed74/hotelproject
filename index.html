@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hotel</title>
+
+        <link rel="shortcut icon" href="images/hootel.png" type="image/x-icon">
+        <!-- link font-awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+                integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+                crossorigin="anonymous" referrerpolicy="no-referrer">
+        <!-- links animate -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- links css -->
+        <link rel="stylesheet" href="font/flaticon.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+        <!-- loader -->
+        <div class="parent-loader" style="background-color:#f3f3f3; width: 100%; height: 100%; position: fixed; top: 0; z-index: 900000;">
+		<div class="loader">Loading...</div>
+	</div>
+        <!-- header -->
+        <div class="parent" style="background-image: url(images/background.jpg);">
+                <header class="pt-4">
+                        <div class="container-lg d-flex justify-content-between align-items-center">
+                                <div>
+                                        <a href="#" class="text-center logo">
+                                                <h2>Unwind</h2>
+                                                <p>HOTEL BOOKING</p>
+                                        </a>
+                                </div>
+                                <span id="bar"><i class="fas fa-bars"></i> Menu</span>
+                                <ul>
+                                        <li><a href="index.html">home</a></li>
+                                        <li><a href="about.html">about</a></li>
+                                        <li><a href="rooms.html">rooms</a></li>
+                                        <li><a href="restaurant-bar.html">resto & bar</a></li>
+                                        <li><a href="blog.html">blog</a></li>
+                                        <li><a href="contact.html">contact</a></li>
+                                </ul>
+                        </div>
+                </header>
+                <div class="container">
+                        <div class="title text-center">
+
+                                <p class="text-uppercase">
+                                        enjoy your wondelrful holidays with a great luxury experience!
+                                </p>
+                                <h1 class="text-capitalize">most relaxing place</h1>
+
+                                <div class="pt-4">
+                                        <button type="button" class="btn py-3 px-4">Take A Tour
+                                                <i class="fas fa-long-arrow-alt-right"></i>
+                                        </button>
+                                        <button type="button" class="btn py-3 px-4">Learn More
+                                                <i class="fas fa-long-arrow-alt-right"></i>
+                                        </button>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <!-- end header -->
+        <!-- main -->
+        <main>
+                <div class="container d-flex">
+                        <div class="check d-flex pl-lg-5 justify-content-between align-items-center">
+                                <div>
+                                        <h5>check-in</h5>
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <input type="text" placeholder="Check-In Date">
+                                </div>
+
+                                <div>
+                                        <h5>check-in</h5>
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <input type="text" placeholder="Check-In Date">
+                                </div>
+                                <div>
+                                        <h5>check-in</h5>
+                                        <i class="fas fa-chevron-down"></i>
+                                        <select>
+                                                <option>Suite</option>
+                                                <option>Family Room</option>
+                                                <option>Classic Room</option>
+                                                <option>Superior Room</option>
+                                                <option>Luxury Room</option>
+                                        </select>
+                                </div>
+                                <div>
+                                        <h5>check-in</h5>
+                                        <i class="fas fa-chevron-down"></i>
+                                        <select>
+                                                <option>1 Person</option>
+                                                <option>2 Person</option>
+                                                <option>3 Person</option>
+                                                <option>4 Person</option>
+                                                <option>5-6 Person</option>
+                                                <option>7-8 Person</option>
+                                                <option>9+ Person</option>
+                                        </select>
+                                </div>
+                                <button type="submit" class="d-block">Check Availability</button>
+                        </div>
+                </div>
+
+        </main>
+        <!-- end main -->
+        <!-- about us -->
+        <section class="container section1 wow fadeInUpBig">
+                <div class="row d-flex justify-content-between">
+                        <div class="col-lg-6 col-sm-12 d-flex  justify-content-sm-center align-items-sm-center row text-center" style="margin:0 auto;">
+                                <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="cozy px-3 py-5 mb-2">
+                                                <i class="fas fa-bed"></i>
+                                                <h4 class="pt-2">Cozy Room</h4>
+                                                <p class="text-secondary">
+                                                        Far far away, behind the word mountains, far
+                                                        from the countries Vokalia.
+                                                </p>
+                                        </div>
+                                        <div class="img-cozy col-md-12"></div>
+                                </div>
+                                <div class="col-lg-6 col-sm-12 mb-2">
+                                        <div class="img-special col-md-12"></div>
+                                        <div class="special px-3 py-5 mt-2">
+                                                <i class="far fa-sun"></i>
+                                                <h4 class="pt-2">Special Offers</h4>
+                                                <p class="text-secondary">
+                                                        Far far away, behind the word mountains, far
+                                                        from the countries Vokalia.
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-lg-6 mt-4 about-us">
+                                <h5 class="text-uppercase">about us</h5>
+                                <h1>Unwind A Hotel Booking Agency</h1>
+                                <p class="pt-4 text-secondary">
+                                        Far far away, behind the word mountains, far from the
+                                        countries Vokalia and Consonantia, there live the blind texts. Separated they
+                                        live in Bookmarksgrove right at the coast of the Semantics, a large language
+                                        ocean.
+                                </p>
+                                <a href="#" class="d-inline-block mt-4 px-5 py-3">Book Your Room Now</a>
+                        </div>
+                </div>
+        </section>
+        <!-- end about us -->
+        <!-- unwind services -->
+        <section class="unwind-services">
+                <div class="text-center wow fadeInUpBig">
+                        <h5 class="text-uppercase">unwind services</h5>
+                        <h1>Explore Our Hotel Services</h1>
+                </div>
+                <div class="container wow fadeInUpBig">
+                        <div class="row d-flex justify-content-between">
+                                <div class="enjoy text-center bg-light py-4">
+                                        <i class="flaticon-wifi"></i>
+                                        <p>Free Wifi</p>
+                                </div>
+                                <div class="enjoy text-center bg-light py-4">
+                                        <i class="flaticon-online-booking"></i>
+                                        <p>Easy Booking</p>
+                                </div>
+                                <div class="enjoy text-center bg-light py-4">
+                                        <i class="flaticon-cooking"></i>
+                                        <p>Restaurant</p>
+                                </div>
+                                <div class="enjoy text-center bg-light py-4">
+                                        <i class="flaticon-swimming-pool"></i>
+                                        <p>Swiming & <br>Pool</p>
+                                </div>
+                                <div class="enjoy text-center bg-light py-4">
+                                        <i class="flaticon-cosmetics"></i>
+                                        <p>beauty & <br> Health</p>
+                                </div>
+                                <div class="enjoy text-center bg-light py-4">
+                                        <i class="flaticon-check-in"></i>
+                                        <p>Help & <br> Support</p>
+                                </div>
+                        </div>
+                </div>
+        </section>
+                <!-- end unwind services -->
+        <!-- book now -->
+        <section class="book-now">
+                <div class="pt-5">
+                        <div class="w-50  mx-auto">
+                                <div class="d-flex flex-column wow fadeInUpBig">
+                                        <p class="text-uppercase">find best hotel for leaving</p>
+                                        <h1 class="d-inline">Find the Best Hotel in Your Next Vacation</h1>
+                                        <button class="btn w-25 mb-4 text-uppercase"><a href="#">book now</a></button>
+                                </div>
+                        </div>
+                </div>
+        </section>
+        <!-- end book now -->
+        <!-- our room -->
+        <section class="our-room container-lg">
+                <div class="text-center pb-5 wow fadeInUpBig">
+                        <h5 class="text-uppercase">our room</h5>
+                        <h1>Featured Rooms</h1>
+                </div>
+                <div class="row">
+                        <div class="col-lg-4 col-md-6 wow flipInY">
+                                <div class="bg-light text-center p-5 night">
+                                        <h2>Suit Room</h2>
+                                        <p class="pt-3">Far far away, behind the word mountains, far from the countries
+                                                Vokalia and Consonantia, there live the blind texts.</p>
+
+                                        <span>$450 / Night</span>
+                                        <button class="px-2 ml-3">book now</button>
+                                </div>
+                                <img src="images/xroom-1.jpg" class="w-100" alt="">
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 wow flipInY">
+                                <img src="images/xroom-2.jpg" class="w-100" alt="">
+                                <div class="bg-light text-center p-5 night">
+                                        <h2>Suit Room</h2>
+                                        <p class="pt-3">Far far away, behind the word mountains, far from the countries
+                                                Vokalia and Consonantia, there live the blind texts.</p>
+
+                                        <span>$450 / Night</span>
+                                        <button class="px-2 py- ml-3">book now</button>
+
+                                </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 mx-auto wow flipInY">
+                                <div class="bg-light text-center p-5 night">
+                                        <h2>Suit Room</h2>
+                                        <p class="pt-3">Far far away, behind the word mountains, far from the countries
+                                                Vokalia and Consonantia, there live the blind texts.</p>
+
+                                        <span>$450 / Night</span>
+                                        <button class="px-2 ml-3">book now</button>
+
+                                </div>
+                                <img src="images/xroom-3.jpg" class="w-100" alt="">
+                        </div>
+
+                </div>
+
+        </section>
+        <!-- end our room -->
+        <!-- tour -->
+        <section class="tour d-flex justify-content-center align-items-center">
+                <div class="text-light text-center wow fadeInUpBig">
+                        <p>WATCH OUR LUXURIOUS HOTEL</p>
+                        <h1>Take A Tour</h1>
+                        <a href="#"><i class="fas fa-play p-4 text-light wow flash"></i></a>
+                </div>
+        </section>
+        <!-- end tour -->
+        <!-- restaurant & bar -->
+        <section class="resto-bar px-lg-3 container-fluid">
+                <div class="text-center resto pb-5 wow fadeInUpBig">
+                        <p class="text-uppercase">resto & bar</p>
+                        <h1>Restaurant & Bar</h1>
+                </div>
+
+                <div class="d-flex justify-content-lg-between align-items-center row">
+                        
+                        <div class="img-resto col-lg-4 col-sm-12 wow fadeInUpBig"></div>
+
+                        <div class="col-lg-4 col-sm-12">
+                                <div class="col-sm-12">
+                                        <div class="list-food d-flex align-items-center bg-light p-3 wow fadeInUpBig">
+
+                                                <img src="images/xmenu-1.jpg" alt="">
+                                                <p class="px-3">Grilled Beef with potatoes</p>
+                                                <span>$5.00</span>
+
+                                        </div>
+
+                                        <div class="list-food d-flex align-items-center bg-light p-3 mt-3 wow fadeInUpBig">
+
+                                                <img src="images/xmenu-2.jpg" alt="">
+                                                <p class="px-3">Grilled Beef with potatoes</p>
+                                                <span>$5.00</span>
+
+                                        </div>
+
+                                        <div class="list-food d-flex align-items-center bg-light p-3 mt-3 wow fadeInUpBig">
+
+                                                <img src="images/xmenu-3.jpg" alt="">
+                                                <p class="px-3">Grilled Beef with potatoes</p>
+                                                <span>$5.00</span>
+
+                                        </div>
+
+                                        <div class="list-food d-flex align-items-center bg-light p-3 mt-3 wow fadeInUpBig">
+
+                                                <img src="images/xmenu-4.jpg" alt="">
+                                                <p class="px-3">Grilled Beef with potatoes</p>
+                                                <span>$5.00</span>
+
+                                        </div>
+                                </div>
+                                </div>
+                                
+                                <div class="col-lg-4 col-sm-12">
+                                        <div class="col-sm-12">
+                                        <div class="list-food d-flex align-items-center bg-light mt-3 p-3 wow fadeInUpBig">
+
+
+                                                <img src="images/xmenu-5.jpg"  alt="">
+                                                <p class="px-3">Grilled Beef with potatoes</p>
+                                                <span>$5.00</span>
+
+                                        </div>
+
+                                        <div class="list-food d-flex align-items-center bg-light p-3 mt-3 wow fadeInUpBig">
+
+                                                <img src="images/xmenu-6.jpg" alt="">
+                                                <p class="px-3">Grilled Beef with potatoes</p>
+                                                <span>$5.00</span>
+
+                                        </div>
+
+                                        <div class="list-food d-flex align-items-center bg-light p-3 mt-3 wow fadeInUpBig">
+
+
+                                                <img src="images/xmenu-7.jpg" alt="">
+                                                <p class="px-3">Grilled Beef with potatoes</p>
+                                                <span>$5.00</span>
+
+                                        </div>
+
+                                        <div class="list-food d-flex align-items-center bg-light p-3 mt-3 wow fadeInUpBig">
+
+                                                <img src="images/xmenu-8.jpg" alt="">
+                                                <p class="px-3">Grilled Beef with potatoes</p>
+                                                <span>$5.00</span>
+
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </section>
+        <!-- end restaurant & bar -->
+        <!-- carousel -->
+        <section class="happy-guests wow fadeInUpBig">
+                <div class="text-center testimonial">
+                        <p class="text-uppercase">testimonial</p>
+                        <h1>Happy Guests</h1>
+                </div>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-dark circle"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-dark circle"></li>
+                        </ol>
+                        <div class="carousel-inner container">
+                                <div class="carousel-item active slide">
+                                        <div class="d-flex justify-content-between row">
+                                                <div class="bg-light px-4 py-lg-5 py-sm-2">
+                                                        <div class="d-flex person">
+                                                                <img src="images/xperson_1.jpg" alt="">
+                                                                <div class="px-4 pt-2">
+                                                                        <h5>Roger Scott</h5>
+                                                                        <p>MARKETING MANAGER</p>
+                                                                </div>
+                                                        </div>
+                                                        <p class="pt-3 text-secondary">Far far away, behind the word mountains, far from the
+                                                                countries Vokalia and Consonantia, there live the blind
+                                                                texts.</p>
+                                                </div>
+                                                <div class="bg-light px-4 py-lg-5 py-sm-2">
+                                                        <div class="d-flex person">
+                                                                <img src="images/xperson_2.jpg" alt="">
+                                                                <div class="px-4 pt-2">
+                                                                        <h5>Roger Scott</h5>
+                                                                        <p>MARKETING MANAGER</p>
+                                                                </div>
+                                                        </div>
+                                                        <p class="pt-3 text-secondary">Far far away, behind the word mountains, far from the
+                                                                countries Vokalia and Consonantia, there live the blind
+                                                                texts.</p>
+                                                </div>
+                                                <div class="bg-light px-4 py-lg-5 py-sm-2">
+                                                        <div class="d-flex person">
+                                                                <img src="images/xperson_3.jpg" alt="">
+                                                                <div class="px-4 pt-2">
+                                                                        <h5>Roger Scott</h5>
+                                                                        <p>MARKETING MANAGER</p>
+                                                                </div>
+                                                        </div>
+                                                        <p class="pt-3 text-secondary">Far far away, behind the word mountains, far from the
+                                                                countries Vokalia and Consonantia, there live the blind
+                                                                texts.</p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="carousel-item slide">
+                                        <div class="d-flex justify-content-between row">
+                                                <div class="bg-light px-4 py-lg-5 py-sm-2">
+                                                        <div class="d-flex person">
+                                                                <img src="images/xperson_3.jpg" alt="">
+                                                                <div class="px-4 pt-2">
+                                                                        <h5>Roger Scott</h5>
+                                                                        <p>MARKETING MANAGER</p>
+                                                                </div>
+                                                        </div>
+                                                        <p class="pt-3 text-secondary">Far far away, behind the word mountains, far from the
+                                                                countries Vokalia and Consonantia, there live the blind
+                                                                texts.</p>
+                                                </div>
+                                                <div class="bg-light px-4 py-lg-5 py-sm-2">
+                                                        <div class="d-flex person">
+                                                                <img src="images/xperson_1.jpg" alt="">
+                                                                <div class="px-4 pt-2">
+                                                                        <h5>Roger Scott</h5>
+                                                                        <p>MARKETING MANAGER</p>
+                                                                </div>
+                                                        </div>
+                                                        <p class="pt-3 text-secondary">Far far away, behind the word mountains, far from the
+                                                                countries Vokalia and Consonantia, there live the blind
+                                                                texts.</p>
+                                                </div>
+                                                <div class="bg-light px-4 py-lg-5 py-sm-2">
+                                                        <div class="d-flex person">
+                                                                <img src="images/xperson_2.jpg" alt="">
+                                                                <div class="px-4 pt-2">
+                                                                        <h5>Roger Scott</h5>
+                                                                        <p>MARKETING MANAGER</p>
+                                                                </div>
+                                                        </div>
+                                                        <p class="pt-3 text-secondary">Far far away, behind the word mountains, far from the
+                                                                countries Vokalia and Consonantia, there live the blind
+                                                                texts.</p>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </section>
+        <!-- end carousel -->
+        <!-- range -->
+        <section class="container-fluid range">
+                <div class="row d-flex justify-content-between numbers">
+                        <div class="d-flex col-sm-6 col-lg-3 wow fadeInUpBig">
+                                <div class="w-100 text-center">
+                                        <h1>38,900</h1>
+                                        <h6># Of Happy Guests</h6>
+                                </div>
+                        </div>
+                        <div class="d-flex col-sm-6 col-lg-3 wow fadeInUpBig">
+                                <div class="w-100 text-center">
+                                        <h1>320</h1>
+                                        <h6># Of Rooms</h6>
+                                </div>
+                        </div>
+                        <div class="d-flex col-sm-6 col-lg-3 wow fadeInUpBig">
+                                <div class="w-100 text-center">
+                                        <h1>1,000</h1>
+                                        <h6># Of staffs</h6>
+                                </div>
+                        </div>
+                        <div class="d-flex col-sm-6 col-lg-3 wow fadeInUpBig">
+                                <div class="w-100 text-center">
+                                        <h1>589</h1>
+                                        <h6># Of Destination</h6>
+                                </div>
+                        </div>
+
+                </div>
+
+        </section>
+        <!-- end range -->
+        <!-- our blog -->
+        <section class="container-fluid our-blog">
+                <div class="text-center mb-5 wow fadeInUpBig">
+                        <h6 class="text-uppercase">our blog</h6>
+                        <h1>Recent Blog</h1>
+                </div>
+                <div class="d-flex justify-content-between row">
+                        <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUpBig">
+                                <div class="img-blog" style="background-image: url(images/ximage_1.jpg);"></div>
+                                <div class="bg-light p-4 raduis">
+                                        <p class="text-uppercase text-secondary">admin may.23,2021 <span>3
+                                                        comments</span></p>
+                                        <h4>Best Hotel Near Beach in Hawaii</h4>
+                                        <p class="text-secondary">A small river named Duden flows by their place and
+                                                supplies it with the necessary regelialia.</p>
+                                </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUpBig">
+                                <div class="img-blog" style="background-image: url(images/ximage_2.jpg);"></div>
+                                <div class="bg-light p-4 raduis">
+                                        <p class="text-uppercase text-secondary">admin may.23,2021 <span>3
+                                                        comments</span></p>
+                                        <h4>Best Hotel Near Beach in Hawaii</h4>
+                                        <p class="text-secondary">A small river named Duden flows by their place and
+                                                supplies it with the necessary regelialia.</p>
+                                </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUpBig">
+                                <div class="img-blog" style="background-image: url(images/ximage_3.jpg);"></div>
+                                <div class="bg-light p-4 raduis">
+                                        <p class="text-uppercase text-secondary">admin may.23,2021 <span>3
+                                                        comments</span></p>
+                                        <h4>Best Hotel Near Beach in Hawaii</h4>
+                                        <p class="text-secondary">A small river named Duden flows by their place and
+                                                supplies it with the necessary regelialia.</p>
+                                </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUpBig">
+                                <div class="img-blog" style="background-image: url(images/ximage_4.jpg);"></div>
+                                <div class="bg-light p-4 raduis">
+                                        <p class="text-uppercase text-secondary">admin may.23,2021 <span>3
+                                                        comments</span></p>
+                                        <h4>Best Hotel Near Beach in Hawaii</h4>
+                                        <p class="text-secondary">A small river named Duden flows by their place and
+                                                supplies it with the necessary regelialia.</p>
+                                </div>
+                        </div>
+                </div>
+
+        </section>
+        <!-- end our blog -->
+        <!-- search -->
+        <section class="search container-fluid">
+                <div class="row wow fadeInUpBig">
+                        <div class="col-md mb-3">
+                                <div class="img position-relative"
+                                        style="background-image: url(images/xgallery-1.jpg);">
+                                        <div class="position-absolute d-none">
+                                                <button class="ico"><i class="fas fa-search text-light"></i></button>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-md mb-3">
+                                <div class="img position-relative"
+                                        style="background-image: url(images/xgallery-2.jpg);">
+                                        <div class="position-absolute d-none">
+                                                <button class="ico"><i class="fas fa-search text-light"></i></button>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-md mb-3">
+                                <div class="img position-relative"
+                                        style="background-image: url(images/xgallery-3.jpg);">
+                                        <div class="position-absolute d-none">
+                                                <button class="ico"><i class="fas fa-search text-light"></i></button>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-md mb-3">
+                                <div class="img position-relative"
+                                        style="background-image: url(images/xgallery-4.jpg);">
+                                        <div class="position-absolute d-none">
+                                                <button class="ico"><i class="fas fa-search text-light"></i></button>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-md mb-3">
+                                <div class="img position-relative"
+                                        style="background-image: url(images/xgallery-5.jpg);">
+                                        <div class="position-absolute d-none">
+                                                <button class="ico"><i class="fas fa-search text-light"></i></button>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+
+        </section>
+        <!-- end search -->
+        <!-- footer -->
+        <footer class="wow fadeInUpBig">
+                <div class="container">
+                        <div class="row d-flex justify-content-between">
+                                <div class="logo col-lg-2 col-md-6">
+                                        <a href="index.html" class="text-light">
+                                                <h2>Unwind</h2>
+                                                <p class="text-uppercase">hotel booking</p>
+                                        </a>
+                                        <p class="mt-4 pfooter">A small river named Duden flows by their place and
+                                                supplies it with the necessary regelialia.</p>
+                                        <div class="d-flex mt-4">
+                                                <a href="#"
+                                                        class="d-flex justify-content-center align-items-center mr-2"><i
+                                                                class="fab fa-twitter"></i></a>
+                                                <a href="#"
+                                                        class="d-flex justify-content-center align-items-center mr-2"><i
+                                                                class="fab fa-facebook-f"></i></a>
+                                                <a href="#" class="d-flex justify-content-center align-items-center"><i
+                                                                class="fab fa-instagram"></i></a>
+                                        </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                        <h3 class="text-light">Services</h3>
+                                        <div class="mt-4 services row">
+                                                <div class="col-lg-6 col-sm-6">
+                                                        <div class="mb-3"><a href="#"><i
+                                                                                class="fas fa-angle-right mr-2"></i>Free
+                                                                        Wifi</a></div>
+                                                        <div class="mb-3"><a href="#"><i
+                                                                                class="fas fa-angle-right mr-2"></i>Easy
+                                                                        Booking</a></div>
+                                                        <div class="mb-3"><a href="#"><i
+                                                                                class="fas fa-angle-right mr-2"></i>Restaurant</a>
+                                                        </div>
+                                                        <div><a href="#"><i class="fas fa-angle-right mr-2"></i>Swimming
+                                                                        Pool</a></div>
+                                                </div>
+
+                                                <div class="col-lg-6 col-sm-6">
+                                                        <div class="mb-3"><a href="#"><i
+                                                                                class="fas fa-angle-right mr-2"></i>Free
+                                                                        Wifi</a></div>
+                                                        <div class="mb-3"><a href="#"><i
+                                                                                class="fas fa-angle-right mr-2"></i>Easy
+                                                                        Booking</a></div>
+                                                        <div class="mb-3"><a href="#"><i
+                                                                                class="fas fa-angle-right mr-2"></i>Restaurant</a>
+                                                        </div>
+                                                        <div><a href="#"><i class="fas fa-angle-right mr-2"></i>Swimming
+                                                                        Pool</a></div>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <div class="col-lg-2 col-md-6">
+                                        <h3 class="text-light">Quick Links</h3>
+                                        <div class="pt-3 services">
+                                                <div class="mb-3"><a href="#"><i
+                                                                        class="fas fa-angle-right mr-2"></i>Home
+                                                        </a></div>
+                                                <div class="mb-3"><a href="#"><i
+                                                                        class="fas fa-angle-right mr-2"></i>About
+                                                        </a></div>
+                                                <div class="mb-3"><a href="#"><i
+                                                                        class="fas fa-angle-right mr-2"></i>Rooms</a>
+                                                </div>
+                                                <div><a href="#"><i class="fas fa-angle-right mr-2"></i>Resto & Bar
+                                                        </a></div>
+                                        </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6">
+                                        <h3 class="text-light">Have a Questions?</h3>
+                                        <div class="pt-3 services">
+                                                <div class="mb-3"><a href="#"><i class="fas fa-map pr-3"></i> 203 Fake
+                                                                St.
+                                                                Mountain View, San Francisco, California, USA
+                                                        </a></div>
+                                                <div class="mb-3"><a href="#"><i
+                                                                        class="fas fa-phone-alt pr-3"></i>01027440090
+                                                        </a></div>
+                                                <div class="mb-3"><a href="#"><i
+                                                                        class="fas fa-paper-plane  pr-3"></i>info@yourdomain.com</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </footer>
+        <div class="copy-right p-5">
+                <p class="mb-0 text-center">Copyright &copy; 2021 All rights reserved | This template is coding by <span>Abdelrahman Mohamed</span> </p>
+        </div>
+        <!-- end footer -->
+
+        <!-- links js -->
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/hotel.js"></script>
+        <script>
+                new WOW().init();
+        </script>
+</body>
+
+</html>
